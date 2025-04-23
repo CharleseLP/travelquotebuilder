@@ -4,7 +4,7 @@ A front-end web application designed to help travel agents quickly build persona
 🧰 Tech Stack
 HTML5
 CSS3
-JavaScript (ES6+)
+JavaScript (ES6+) 
 
 💡 Features
 🧳 Dynamic Trip Options: Add up to 5 quote blocks with destination, package name, price, description, and image.
