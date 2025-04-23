@@ -1,0 +1,174 @@
+/* ==== GENERAL STYLES ==== */
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  padding: 0;
+  background: #acf7ff;
+}
+
+/* ==== CONTAINER ==== */
+.container {
+  max-width: 800px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* ==== HEADINGS ==== */
+h2, h3, h4 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* ==== FORM ELEMENTS ==== */
+.input-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* ==== TRIP OPTIONS ==== */
+.trip-option {
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+
+/* ==== BUTTONS ==== */
+.button-row {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #3498db;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+/* ==== EMAIL PREVIEW BOX ==== */
+.preview {
+  background: #fafafa;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+/* ==== PREVIEW OPTION CARDS (for block layout version) ==== */
+.preview-option {
+  border: 1px solid #ccc;
+  padding: 1px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.preview-option h4 {
+  margin-top: 0;
+}
+
+.preview img {
+  margin-top: 0%;
+  max-width: 100%;
+  height: auto;
+  border-radius: 1px;
+  object-fit: contain;
+  position: center;
+}
+
+/* ==== THUMBNAIL PREVIEW (for upload) ==== */
+.thumbnail-preview {
+  display: block;
+  margin-top: 0%;
+  width: 30%;
+  object-fit: contain;
+  border-radius: 1px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* ==== EMAIL TABLE STYLE (for table layout version) ==== */
+.quote-table {
+  margin-top: 20px;
+  width: 100%;
+  border: 2px solid black;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.quote-table th, tr {
+  height: 30%;
+  border: 1px solid #000303;
+  padding: 15px;
+  vertical-align: top;
+}
+
+.quote-table td:first-child {
+  width: 50%;
+  object-fit: contain;
+  border: 1px solid #000303;   
+}
+
+.quote-table td:nth-child(2) {
+  width: 50%;
+  text-align: center;
+  object-fit: contain;
+  border: 1px solid #000303;
+}
+
+.quote-table td:last-child {
+  width: 100%;
+  object-fit: contain;
+  border: 1px solid #000303;
+}
+
+.table-thumbnail {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.thank-you-message {
+  padding: 12px;
+  margin-top: 20px;
+  background-color: #e8f3ff;
+  border: 1px solid #aad4ff;
+  border-radius: 8px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  color: #333;
+}
+
+.thank-you-message a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.thank-you-message a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,67 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Travel Savvy Co - Quote Email Generator</title>
+  <link rel ="stylesheet" href="style.css" />
+</head>
+
+<!-- Begin input to generate quote-->
+
+<body>
+  <div class="container">
+    <h2>Travel Quote Email Generator</h2>
+    <div class="input-group">
+      <label for="agentName">Agent Name</label>
+      <input type="text" id="agentName" />
+      <label for="agencyName">Agency Name</label>
+      <input type="text" id="agencyName" />
+      <label for="clientName">Client Name</label>
+      <input type="text" id="clientName" />
+    </div>
+
+    <div id="tripOptions"></div>
+
+    <div class="button-row">
+      <button onclick="addTripOption()">+ Add Option</button>
+      <button onclick="generateEmail()">Generate Email Preview</button>
+      <button onclick="copyScreenshot()">Copy Email as Image</button>
+      <button onclick="copyEmailHTML()">📋 Copy Email as Editable</button>
+
+
+    </div>
+
+
+    <!-- Begin return quote preview-->
+
+    <h3>Email Preview:</h3>
+    
+    <div class="preview" id="emailContainer">
+      <p id="emailIntro"></p> <!-- Optional: dynamic intro paragraph -->
+      <table class="quote-table">
+        <thead>
+          <tr>
+            <th>Trip Details</th>
+            <th>Photo</th>
+          </tr>
+        </thead>
+        <tbody id="emailPreview">
+          <!-- JS will insert <tr> rows here -->
+        </tbody>
+      </table>
+      <p id="emailClosing"></p> <!-- Optional: dynamic closing -->
+    </div>
+
+    <div id="finalMessage" class="thank-you-message"></div>
+
+    
+    
+
+
+  <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+  <script src="script.js" defer></script>
+  <script src="script2.js"></script>
+
+
+</body>
+</html>
