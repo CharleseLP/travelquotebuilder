@@ -21,7 +21,7 @@ JavaScript (ES6+)
 
 🚀 Getting Started
 Clone or download the project:
-git clone git@github.com:CharleseLP/travelquotebuilder.git
+git clone https://github.com/CharleseLP/travelquotebuilder
 Open index.html in your browser to use the tool.
 
 🔄 To-Do / Possible Enhancements
